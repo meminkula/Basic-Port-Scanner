@@ -20,20 +20,21 @@ You must have `arp-scan` and `gcc` installed on your system.
 To install dependencies:
 ```bash
 sudo apt update
-sudo apt install arp-scan gcc -y ```
+sudo apt install arp-scan gcc -y
+```
 
 To compile and run:
 
-    Open your terminal in the project directory.
+  Open your terminal in the project directory.
 
-    Compile the code:
+  Compile the code:
     
-    ```gcc scanner.c -o scanner```
+    gcc scanner.c -o scanner
     
-    Run with sudo privileges(it required for arp-scan and raw sockets):
+  Run with sudo privileges(it required for arp-scan and raw sockets):
     
-    ```chmod +x scanner
+    chmod +x scanner
     
-       sudo ./scanner```
+    sudo ./scanner
     
     
